@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/root">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/container">
+
+        <fragment
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:name="com.gorillamoa.happyBirthday.android.fragment.BackgroundFragment"/>
+
+
+    </FrameLayout>
+
+    <ImageView
+        android:layout_width="350dip"
+        android:layout_height="500dip"
+        android:id="@+id/iv_pic"
+        android:src="@drawable/ic_launcher"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_message"
+        android:text="YOoooooo"
+        android:layout_below="@id/iv_pic"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        android:textSize="30sp"
+        android:textColor="#FFFFFF"
+        android:background="#AAaaaaaa"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notifications"
+        android:textColor="#FFFFFF"
+        android:id="@+id/cb_notification"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

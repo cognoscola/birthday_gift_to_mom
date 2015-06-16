@@ -1,0 +1,26 @@
+
+hbatlas.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+happybirthday
+  rotate: false
+  xy: 1, 1
+  size: 430, 437
+  orig: 430, 437
+  offset: 0, 0
+  index: -1
+circularlights
+  rotate: false
+  xy: 433, 238
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+path5300
+  rotate: false
+  xy: 433, 111
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: -1
