@@ -6,3 +6,6 @@ Just a simple android app which uses libgdx and android UI to create a birthday 
 - Each daily surprise is a combination of a picture from the past and a motivational quote
 - 
 ![alt tag](https://raw.github.com/cognoscola/birthday_gift_to_mom/master/img1.png)
+![alt tag](https://raw.github.com/cognoscola/birthday_gift_to_mom/master/img2.png)
+![alt tag](https://raw.github.com/cognoscola/birthday_gift_to_mom/master/img3.png)
+![alt tag](https://raw.github.com/cognoscola/birthday_gift_to_mom/master/img4.png)
