@@ -29,9 +29,7 @@ public class Lights extends Box{
         this.width = 0f;
 
         MAX_GROWTH_SIZE = width;
-
         lights = Main.res.getAtlas("assets").findRegion("circularlights");
-
     }
 
     public void render(SpriteBatch sb){

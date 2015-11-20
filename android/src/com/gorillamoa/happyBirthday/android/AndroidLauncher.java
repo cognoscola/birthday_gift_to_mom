@@ -28,8 +28,6 @@ public class AndroidLauncher extends BaseActivity  {
 	ImageView iv;
 	TextView message;
 
-
-
 	private boolean fromAlarm;
 
 	public interface OnSetAlarmListener {
@@ -93,6 +91,7 @@ public class AndroidLauncher extends BaseActivity  {
 
 				message.setVisibility(View.VISIBLE);
 				message.setText(getRandomString(c));
+				message.setTextSize(14);
 				iv.setVisibility(View.VISIBLE);
 				iv.setImageResource(getRandomPicture(c));
 
@@ -103,7 +102,6 @@ public class AndroidLauncher extends BaseActivity  {
 			scheduleClient = new ScheduleClient(this);
 			scheduleClient.doBindService();
 		}
-
 	}
 
 	@Override
@@ -128,36 +126,36 @@ public class AndroidLauncher extends BaseActivity  {
 
 		switch (calendar.get(Calendar.DAY_OF_MONTH)){
 			case 0: return R.drawable.img1;
-			case 1: return R.drawable.img2;
-			case 2: return R.drawable.img4;
-			case 3: return R.drawable.img6;
-			case 4: return R.drawable.img7;
-			case 5: return R.drawable.img8;
-			case 6: return R.drawable.img9;
-			case 7: return R.drawable.img10;
-			case 8: return R.drawable.img11;
-			case 9: return R.drawable.img12;
-			case 10: return R.drawable.img13;
-			case 11: return R.drawable.img14;
-			case 12: return R.drawable.img15;
-			case 13: return R.drawable.img16;
-			case 14: return R.drawable.img17;
-			case 15: return R.drawable.img18;
-			case 16: return R.drawable.img19;
-			case 17: return R.drawable.img20;
-			case 18: return R.drawable.img21;
-			case 19: return R.drawable.img22;
-			case 20: return R.drawable.img23;
-			case 21: return R.drawable.img24;
-			case 22: return R.drawable.img25;
-			case 23: return R.drawable.img26;
-			case 24: return R.drawable.img27;
-			case 25: return R.drawable.img28;
-			case 26: return R.drawable.img29;
-			case 27: return R.drawable.img30;
-			case 28: return R.drawable.img31;
-			case 29: return R.drawable.img35;
-			case 30: return R.drawable.img44;
+			case 1: return R.drawable.img1;
+			case 2: return R.drawable.img1;
+			case 3: return R.drawable.img1;
+			case 4: return R.drawable.img1;
+			case 5: return R.drawable.img1;
+			case 6: return R.drawable.img1;
+			case 7: return R.drawable.img1;
+			case 8: return R.drawable.img1;
+			case 9: return R.drawable.img1;
+			case 10: return R.drawable.img1;
+			case 11: return R.drawable.img1;
+			case 12: return R.drawable.img1;
+			case 13: return R.drawable.img1;
+			case 14: return R.drawable.img1;
+			case 15: return R.drawable.img1;
+			case 16: return R.drawable.img1;
+			case 17: return R.drawable.img1;
+			case 18: return R.drawable.img1;
+			case 19: return R.drawable.img1;
+			case 20: return R.drawable.img1;
+			case 21: return R.drawable.img1;
+			case 22: return R.drawable.img1;
+			case 23: return R.drawable.img1;
+			case 24: return R.drawable.img1;
+			case 25: return R.drawable.img1;
+			case 26: return R.drawable.img1;
+			case 27: return R.drawable.img1;
+			case 28: return R.drawable.img1;
+			case 29: return R.drawable.img1;
+			case 30: return R.drawable.img1;
 			case 31: return R.drawable.img1;
 		}
 
